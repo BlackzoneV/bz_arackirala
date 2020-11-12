@@ -3,5 +3,5 @@ Hızlı araç kirala
 
 Kurulum:
 
-server.cfg'ye git.
+server.cfg'ye git. <br>
 ensure bz_arackirala yaz.
