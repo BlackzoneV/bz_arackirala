@@ -52,7 +52,7 @@ function arackirala()
   function(data, menu) 
     if data.current.value == 'pantokirala' then
 	if(time > timer) then
-		TriggerServerEvent('pantokirala', source)
+		TriggerServerEvent('pantokirala')
 	time = 0
 	else
 	TriggerEvent('notification', 'Araç kiralamak için 1 dakika beklemelisin!', 1)
@@ -60,7 +60,7 @@ function arackirala()
 	  menu.close()   
 	elseif data.current.value == 'bmxkirala' then
 	if(time > timer) then
-		TriggerServerEvent('bmxkirala', source)
+		TriggerServerEvent('bmxkirala')
 	time = 0
 	else
 	TriggerEvent('notification', 'Araç kiralamak için 1 dakika beklemelisin!', 1)
